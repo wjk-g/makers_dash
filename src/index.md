@@ -197,3 +197,7 @@ Oprócz trzech wstępnie opisanych powyżej modeli wyróżniamy trzy szczególne
   
   </div>
 </div>
+
+<div class="muted">
+  Dane mejkerspejsów wyświetlane na interaktywnej mapie pochodzą wyłącznie z publicznie dostępnych źródeł takich jak strony internetowe lub fanpage'e.
+</div>
