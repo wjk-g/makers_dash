@@ -3,7 +3,8 @@ title: Polskie mejkerspejsy
 toc: false
 ---
 
-# Polskie mejkserspejsy: kondycja po pandemii COVID-19
+# Mejkerspejsy i przestrzenie kreatywne: kondycja po pandemii COVID-19
+## Podsumowanie badania ruchu mejkerskiego w Polsce
 
 <style>
   .card {
@@ -26,12 +27,15 @@ const year = Generators.input(yearInput);
 yearInput.querySelector("input[type=number]").remove();
 ```
 
-Pierwsze warsztaty mejkerskie pojawiły się w Polsce około 2010 roku. Wtedy swoją obecność w internecie zaznaczyły **warsztaty w Trójmieście**, a w następnych miesiącach i latach powstały **Warszawski Hackerspace** oraz kolejne **hakerspejsy we Wrocławiu i Krakowie**. 
+Pierwsze pracownie mejkerskie pojawiły się w Polsce około 2010 roku. Wtedy swoją obecność w internecie zaznaczyły **warsztaty w Trójmieście**, a w następnych miesiącach i latach powstały **Warszawski Hackerspace** oraz kolejne **hakerspejsy we Wrocławiu i Krakowie**. 
 
-Przed wprowadzeniem obostrzeń pandemicznych w marcu 2020 roku w Polsce pozostawało aktywnych blisko 80 pracowni, w różnym stopniu związanych z ruchem mejkerskim i jego ideałami. W latach 2015–2019, przybywało nawet kilkanaście nowych pracowni rocznie, a jedynie nieliczne kończyły swoją działalność. Niestety wiele z nich zakończyło swoją działalność w czasie pandemii COVID-19.
+Przed wprowadzeniem obostrzeń pandemicznych w marcu 2020 roku w Polsce pozostawało aktywnych blisko 80 pracowni, w różnym stopniu związanych z ruchem mejkerskim i jego ideałami. W latach 2015–2019, przybywało nawet kilkanaście nowych pracowni rocznie. Pandemia COVID-19 zmusiła wiele z nich do zawieszenia lub zakończenia działalności. 
 
 <div style="font-size: 25px;">
 Mejkerspejsy aktywne w ${year} roku
+</div>
+<div>
+<p> </p>
 </div>
 <div style="display: flex; align-items: center;">
     <div>2010</div>
@@ -94,7 +98,7 @@ makerspaces_filtered.forEach(makerspace => {
 <details>
   <summary>Źródło danych</summary>
     <span class="muted" style="font-size: 13px;">
-        Dane podajemy, opierając się na aktywności pracowni mejkerskich na ich fanpage’ach w portalu Facebook. Nie możemy wykluczyć, że lista pracowni, którą skomponowaliśmy uwzględnia wszystkie polskie mejkerspejsy, ale zakładamy, że jest relatywnie kompletna. Początek i koniec działalności offline nie zawsze doskonale pokrywa się z początkiem i końcem aktywności online, ale jest to jedyna dostępna metoda, która pozwala nam oszacować liczbę pracowni mejkerskich w Polsce w ostatniej dekadzie i dynamikę rozwoju ruchu mejkerskiego.
+        Dane podajemy, opierając się na aktywności pracowni mejkerskich na ich fanpage’ach w portalu Facebook. Nie możemy zagwarantować, że lista pracowni, którą skomponowaliśmy uwzględnia wszystkie polskie mejkerspejsy, ale zakładamy, że jest relatywnie kompletna. Początek i koniec działalności offline nie zawsze doskonale pokrywa się z początkiem i końcem aktywności online, ale jest to jedyna dostępna metoda, która pozwala nam oszacować liczbę pracowni mejkerskich w Polsce w ostatniej dekadzie i dynamikę rozwoju ruchu mejkerskiego.
     </span>
 </details>
 
@@ -102,23 +106,22 @@ makerspaces_filtered.forEach(makerspace => {
 
 ## 5 rodzajów pracowni mejkerskich
 
-Nie ma jednej definicji pracowni mejkerskiej ani ruchu mejkerskiego. Mejkerzy, z którymi rozmawialiśmy, też często mieli problemy z określeniem jego granic oraz swojego w nim miejsca. Dlatego zdecydowaliśmy się przyjąć maksymalnie inkluzywną konceptualizację „pracowni mejkerskiej”. Do udziału w badaniu zaprosiliśmy wszystkie podmioty, które zaj- mują się szeroko rozumianą działalnością wytwórczą, majsterkowaniem lub prototypowa- niem. W przeciwieństwie do większości opracowań poświęconych ruchowi mejkerskiemu nie posługujemy się „oficjalnymi” definicjami fablabów, mejkerspejsów i hakerspejsów, które nie zawsze zdają egzamin w konfrontacji z rzeczywistością. Zamiast tego polegamy na empi- rycznej segmentacji pracowni opartej na trzech wymiarach funkcjonowania i pozyskiwania środków. Wymiar pierwszy mierzy ogólną profesjonalizację organizacyjną pracowni (na przy- kład liczbę pracowników i formę ich zatrudnienia), wymiar drugi komercyjną działalność wy- twórczą (czy pracownia uzyskuje dochody ze sprzedaży swoich wyrobów), a wymiar trzeci działalność usługową (organizowane warsztaty i szkolenia). Szczegółowy opis wszystkich trzech wymiarów zawiera ramka 2.1.
+Nie ma jednej definicji pracowni mejkerskiej ani ruchu mejkerskiego. Zdecydowaliśmy się przyjąć maksymalnie inkluzywną definicję „pracowni mejkerskiej”. Do udziału w badaniu zaprosiliśmy wszystkie podmioty, które zajmują się szeroko rozumianą działalnością wytwórczą, majsterkowaniem lub prototypowaniem. W przeciwieństwie do większości opracowań poświęconych ruchowi mejkerskiemu nie posługujemy się „oficjalnymi” definicjami fablabów, mejkerspejsów i hakerspejsów, które nie zawsze zdają egzamin w konfrontacji z rzeczywistością. Zamiast tego polegamy na empirycznej segmentacji pracowni opartej na trzech wymiarach funkcjonowania i pozyskiwania środków sporządzonej na podstawie wyników badania sondażowego blisko 40 polskich pracowni mejkerskich.
 
+### Trzy wymiary funkcjonowania mejkerskich
 ```js
 html`<div style="width: ${contentWidth+30}px;">
   <div class="card" style="font-size: 16px;">
-    <span style="font-weight: bold;">Ogólna profesjonalizacja organizacyjna i dostęp do środków publicznych.</span> Na ten wymiar składają się zmienne mierzące liczbę osób zatrudnionych w organizacji, charakter ich zatrudnienia, liczbę użytkowników przestrzeni oraz dostęp do rozmaitych środków publicznych – zarówno z poziomu lokalnego, krajowego, jak i europejskiego12. Ze względu na liczne braki odpowiedzi nie mogliśmy uwzględnić w segmentacji rocznego przychodu ani rozmiaru pracowni. Liczba pracowników i użytkowników pracowni oraz do- stęp do środków publicznych są ze sobą skorelowane. Instytucje o większej liczbie pracowników etatowych mogą sobie pozwolić na pisanie, składanie i rozliczanie wniosków grantowych – w przypadku organizacji bez profesjonalnego zaplecza kadrowego ich dostęp do pieniędzy publicznych jest zdecydowanie utrudniony. Na wykresie 2.1 wyniki w tym wymiarze są oznaczone na osi x.
+    <span style="font-weight: bold;">Ogólna profesjonalizacja organizacyjna i dostęp do środków publicznych</span> (oś x na wykresie). Na ten wymiar składają się zmienne mierzące liczbę osób zatrudnionych w organizacji, charakter ich zatrudnienia, liczbę użytkowników przestrzeni oraz dostęp do rozmaitych środków publicznych – zarówno z poziomu lokalnego, krajowego, jak i europejskiego12. Ze względu na liczne braki odpowiedzi nie mogliśmy uwzględnić w segmentacji rocznego przychodu ani rozmiaru pracowni. Liczba pracowników i użytkowników pracowni oraz dostęp do środków publicznych są ze sobą skorelowane. Instytucje o większej liczbie pracowników etatowych mogą sobie pozwolić na pisanie, składanie i rozliczanie wniosków grantowych – w przypadku organizacji bez profesjonalnego zaplecza kadrowego ich dostęp do pieniędzy publicznych jest zdecydowanie utrudniony.
   </div>
   <div class="card" style="font-size: 16px">
-    <span style="font-weight: bold;">Komercyjna działalność wytwórcza.</span> Na ten wymiar składają się cechy pracowni, które upodabniają ją do mikroprzedsiębiorstwa społecznego. Wysokie wartości uzyskują pracownie funkcjonujące najczęściej w formie stowarzyszenia, utrzymujące się z darowizn, ale również prowadzące własną działalność gospodarczą – w tym działalność stricte wytwórczą polegającą na sprzedaży własnych wyrobów. Na wykresie wyniki w tym wymiarze są oznaczone na osi y.
+    <span style="font-weight: bold;">Komercyjna działalność wytwórcza</span> (oś y na wykresie). Na ten wymiar składają się cechy pracowni, które upodabniają ją do mikroprzedsiębiorstwa społecznego. Wysokie wartości uzyskują pracownie funkcjonujące najczęściej w formie stowarzyszenia, utrzymujące się z darowizn, ale również prowadzące własną działalność gospodarczą – w tym działalność stricte wytwórczą polegającą na sprzedaży własnych wyrobów.
   </div>
   <div class="card" style="font-size: 16px">
-    <span style="font-weight: bold;">Działalność usługowa i abonament.</span> Wysokie wartości w tym wymiarze uzyskują pracownie, które utrzymują się z abonamentu, organizacji odpłatnych zajęć i kursów oraz odpłatnej działalności pożytku publicznego (na podstawie badania jakościowego przypuszczamy, że kryją się pod nią przede wszystkim usługi edukacyjno-szkoleniowe) oraz, w dalszej kolejności, darowizny od osób prywatnych. Na wykresie wartości w tym wymiarze reprezentuje rozmiar punktu.
+    <span style="font-weight: bold;">Działalność usługowa i abonament</span> (wielkość punktu na wykresie). Wysokie wartości w tym wymiarze uzyskują pracownie, które utrzymują się z abonamentu, organizacji odpłatnych zajęć i kursów oraz odpłatnej działalności pożytku publicznego (na podstawie badania jakościowego przypuszczamy, że kryją się pod nią przede wszystkim usługi edukacyjno-szkoleniowe) oraz, w dalszej kolejności, darowizny od osób prywatnych.
   </div>
 </div>`
 ```
-
-Nie ma jednej definicji pracowni mejkerskiej ani ruchu mejkerskiego. Mejkerzy, z którymi rozmawialiśmy, też często mieli problemy z określeniem jego granic oraz swojego w nim miejsca. Dlatego zdecydowaliśmy się przyjąć maksymalnie inkluzywną konceptualizację „pracowni mejkerskiej”. Do udziału w badaniu zaprosiliśmy wszystkie podmioty, które zaj- mują się szeroko rozumianą działalnością wytwórczą, majsterkowaniem lub prototypowa- niem. W przeciwieństwie do większości opracowań poświęconych ruchowi mejkerskiemu nie posługujemy się „oficjalnymi” definicjami fablabów, mejkerspejsów i hakerspejsów, które nie zawsze zdają egzamin w konfrontacji z rzeczywistością. Zamiast tego polegamy na empi- rycznej segmentacji pracowni opartej na trzech wymiarach funkcjonowania i pozyskiwania środków.
 
 ```js
 const scatterplot = Plot.plot({
@@ -146,14 +149,14 @@ display(html`<div class="card" style="width: ${contentWidth}px;">
 </div>`)
 ```
 
-Na podstawie wyników na powyższych wymiarach wyróżniliśmy trzy główne modele funkcjo- nowania polskich pracowni mejkerskich. Pierwszy to model, w którym struktura organiza- cyjno-finansowa pracowni przypomina typową małą lub średnią organizację społeczną, opie- rającą się na pracy niewielkiego zespołu pracowników i utrzymującą się głównie ze środków publicznych. Zasadnicza różnica między pracowniami tego typu a typowymi polskimi orga- nizacjami pozarządowymi polega na tym, że warsztaty w modelu pierwszym nie są w pełni samodzielne – przeważnie funkcjonują w jakiejś formie zależności od większego partnera in- stytucjonalnego, najczęściej instytucji akademickiej lub publicznej. Nazywamy je pracow- niami przyległymi. Drugi model skupia przede wszystkim hakerspejsy i niewielkie grupy en- tuzjastów funkcjonujące w wysoce niesformalizowany sposób. Przy ich opisie posługujemy się nazwą grupy pasjonatów. Trzeci model to otwarte warsztaty rzemieślnicze utrzymujące się przede wszystkim ze sprzedaży własnych wyrobów, świadczenia usług i organizacji warsz- tatów i zajęć.
+Na podstawie wyników na powyższych wymiarach wyróżniliśmy trzy główne modele funkcjonowania polskich pracowni mejkerskich. Pierwszy to model, w którym struktura organizacyjno-finansowa pracowni przypomina typową małą lub średnią organizację społeczną, opierającą się na pracy niewielkiego zespołu pracowników i utrzymującą się głównie ze środków publicznych. Zasadnicza różnica między pracowniami tego typu a typowymi polskimi organizacjami pozarządowymi polega na tym, że warsztaty w modelu pierwszym nie są w pełni samodzielne – przeważnie funkcjonują w jakiejś formie zależności od większego partnera instytucjonalnego, najczęściej instytucji akademickiej lub publicznej. Nazywamy je **pracowniami przyległymi**. Drugi model skupia przede wszystkim hakerspejsy i niewielkie grupy entuzjastów funkcjonujące w wysoce niesformalizowany sposób. Przy ich opisie posługujemy się nazwą **grupy pasjonatów**. Trzeci model to **otwarte warsztaty rzemieślnicze** utrzymujące się przede wszystkim ze sprzedaży własnych wyrobów, świadczenia usług i organizacji warsztatów i zajęć.
 
 <div class="grid grid-cols-2">
   <div class="card">
   
   **Pracownie przyległe**
 
-  Czternaście pracowni przyległych stanowi największy i najbardziej zróżnicowany z wyróżnio- nych przez nas klastrów. Ich specyfika polega na funkcjonowaniu w ramach innej, większej, przeważnie publicznej instytucji (biblioteki, centrum kultury, miejsca aktywności lokalnej, uczelni lub agencji rozwoju regionalnego) lub w ścisłym partnerstwie z nią. Pod względem modelu działalności często przypomina małą lub średnią organizację pozarządową. Pracow- nie przyległe są nastawione przede wszystkim na działania projektowe, warsztaty oraz zajęcia z młodzieżą, które finansują z publicznych grantów. W tej grupie znajdują się zarówno męskie szopy, małe fablaby, jak i pracownie wewnątrzuczelniane.
+  Czternaście pracowni przyległych stanowi największy i najbardziej zróżnicowany z wyróżnionych przez nas klastrów. Ich specyfika polega na funkcjonowaniu w ramach innej, większej, przeważnie publicznej instytucji (biblioteki, centrum kultury, miejsca aktywności lokalnej, uczelni lub agencji rozwoju regionalnego) lub w ścisłym partnerstwie z nią. Pod względem modelu działalności często przypomina małą lub średnią organizację pozarządową. Pracownie przyległe są nastawione przede wszystkim na działania projektowe, warsztaty oraz zajęcia z młodzieżą, które finansują z publicznych grantów. W tej grupie znajdują się zarówno męskie szopy, małe fablaby, jak i pracownie wewnątrzuczelniane.
   </div>
 
   <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
@@ -164,7 +167,7 @@ Na podstawie wyników na powyższych wymiarach wyróżniliśmy trzy główne mod
   
   **Grupy pasjonatów**
 
-   Model drugi to nieformalne zrzeszenia i stowarzyszenia pasjonatów – najczęściej w hakerspejsach i instytucjach o podobnej specyfice. Grupa stałych użytkowników tego typu pracowni średnio nie przekracza 15 osób, przeciętny roczny budżet to z kolei niespełna 40 tys. zł. Nie posiadają profesjonalnej (tzn. zatrudnionej na etat) kadry i mają relatywnie niskie przychody – głównie ze składek członkowskich. W przypadku hakerspejsów niskie przychody są często równoważone przez niskie koszty funkcjonowania, co sprawia, że ich sytuacja finan- sowa może być bardzo stabilna (jedna z pracowni, z którą rozmawialiśmy miała zapewnione środki finansowe na pół roku funkcjonowania). Finansowe trudności w tej grupie odczuwają organizacje, które usiłują połączyć model finansowania à la hakerspejs z działalnością projektową i warsztatową skierowaną do szerszego grona odbiorców.
+   Model drugi to nieformalne zrzeszenia i stowarzyszenia pasjonatów – najczęściej w hakerspejsach i instytucjach o podobnej specyfice. Grupa stałych użytkowników tego typu pracowni średnio nie przekracza 15 osób, przeciętny roczny budżet to z kolei niespełna 40 tys. zł. Nie posiadają profesjonalnej (tzn. zatrudnionej na etat) kadry i mają relatywnie niskie przychody – głównie ze składek członkowskich. W przypadku hakerspejsów niskie przychody są często równoważone przez niskie koszty funkcjonowania, co sprawia, że ich sytuacja finansowa może być bardzo stabilna (jedna z pracowni, z którą rozmawialiśmy miała zapewnione środki finansowe na pół roku funkcjonowania). Finansowe trudności w tej grupie odczuwają organizacje, które usiłują połączyć model finansowania à la hakerspejs z działalnością projektową i warsztatową skierowaną do szerszego grona odbiorców.
 </div>
 
   <div class="card">
@@ -179,14 +182,14 @@ Na podstawie wyników na powyższych wymiarach wyróżniliśmy trzy główne mod
   </div>
 </div>
 
-Oprócz trzech wstępnie opisanych powyżej modeli wyróżniamy trzy szczególne pracownie, które nie wpisują się w ten podział: jedną ze względu na relatywnie zdywersyfikowane źródła przychodu i duży poziom stabilizacji organizacyjnej nazywamy pracownią zrównoważoną (oznaczona kolorem zielonym na wykresie powyżej), dwie pozostałe to centra innowacji (oznaczone kolorem jasnoniebieskim) – duże organizacje nastawione na promocję innowa- cyjności i przedsiębiorczości w skali regionalnej, w których przestrzenie mejkerskie stanowią jedynie element dużo szerszego i bardzo urozmaiconego krajobrazu działań. Skrajność wszystkich trzech szczególnych przypadków widać na wykresie 2.1. Określają ją: pozycja pra- cowni na osiach x i y oraz rozmiar punktu.
+Oprócz trzech wstępnie opisanych powyżej modeli wyróżniamy trzy szczególne pracownie, które nie wpisują się w ten podział: jedną ze względu na relatywnie zdywersyfikowane źródła przychodu i duży poziom stabilizacji organizacyjnej nazywamy **pracownią zrównoważoną** (oznaczona kolorem zielonym na wykresie powyżej), dwie pozostałe to **centra innowacji** (oznaczone kolorem jasnoniebieskim) – duże organizacje nastawione na promocję innowa- cyjności i przedsiębiorczości w skali regionalnej, w których przestrzenie mejkerskie stanowią jedynie element dużo szerszego i bardzo urozmaiconego krajobrazu działań.
 
 <div class="grid grid-cols-2">
   <div class="card">
   
   **Centra innowacji**
 
-  Centra innowacji to duże instytucje naukowe lub publiczne, w których mejkerspejs lub fablab jest tylko jednym z wielu komponentów składających się na całokształt ich działań. Pracownie są, jak ujął to jeden z naszych rozmówców, „dokładane jako element budowania innowacji” (IDI, centrum innowacji). Wśród swoich celów instytucje te wymieniają między innymi przyciąganie talentów z sektorów technicznych do regionu, realizację projektów naukowo-technicznych na rzecz zrównoważonego rozwoju czy wspieranie i inkubowanie start-upów. O ile w segmentacji statystycznej wyróżniliśmy jedynie dwie tego rodzaju instytucje, o tyle są one częścią szerszego trendu. Mejkerspejsy w centrach innowacji są de facto pracowniami przyległymi, ale przy większych instytucjach, z większymi budżetami, liczniejszą kadrą i uczestniczącymi w większych projektach, często finansowanych ze środków europejskich.
+  Centra innowacji to duże instytucje naukowe lub publiczne, w których mejkerspejs lub fablab jest tylko jednym z wielu komponentów składających się na całokształt ich działań. Pracownie są, jak ujął to jeden z naszych rozmówców, „dokładane jako element budowania innowacji”. Wśród swoich celów instytucje te wymieniają między innymi przyciąganie talentów z sektorów technicznych do regionu, realizację projektów naukowo-technicznych na rzecz zrównoważonego rozwoju czy wspieranie i inkubowanie start-upów. O ile w segmentacji statystycznej wyróżniliśmy jedynie dwie tego rodzaju instytucje, o tyle są one częścią szerszego trendu. Mejkerspejsy w centrach innowacji są de facto pracowniami przyległymi, ale przy większych instytucjach, z większymi budżetami, liczniejszą kadrą i uczestniczącymi w większych projektach, często finansowanych ze środków europejskich.
   
   </div>
   <div class="card">
